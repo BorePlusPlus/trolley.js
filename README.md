@@ -10,7 +10,7 @@ The plan
 - [X] <del>utilise localStorage for caching if available</del>
 - [X] <del>preserve loading order</del>
 - [X] <del>support synchronous loading</del>
-- [ ] support "immediate" scripts (they execute immediately as loaded irrespective of the order)
+- [X] <del>support "immediate" scripts (they execute immediately as loaded irrespective of the order)</del>
 - [ ] provide callback for script loaded
 - [ ] provide callback for script loaded that fires if script has already been loaded before
 - [X] <del>support for CSS</del>
