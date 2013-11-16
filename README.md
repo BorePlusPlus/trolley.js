@@ -11,7 +11,7 @@ The plan
 - [X] <del>preserve loading order</del>
 - [X] <del>support synchronous loading</del>
 - [X] <del>support "immediate" scripts (they execute immediately as loaded irrespective of the order)</del>
-- [ ] provide callback for script loaded
+- [X] <del>provide callback for script loaded</del>
 - [ ] provide callback for script loaded that fires if script has already been loaded before
 - [X] <del>support for CSS</del>
 - [ ] evict from localStorage based on version
