@@ -14,8 +14,9 @@ The plan
 - [X] <del>provide callback for script loaded</del>
 - [X] <del>provide callback for script loaded that fires if script has already been loaded before</del>
 - [X] <del>support for CSS</del>
-- [ ] evict from localStorage based on version - partial make sure it evicts non versioned as well
+- [X] <del>evict from localStorage based on version - partial make sure it evicts non versioned as well</del>
 - [X] <del>evict from localStorage based on insertion time when no version</del>
+- [ ] provide error callback
 - [ ] allow people to add their own loaders based on content type
 - [ ] documentation
 - [ ] tests
