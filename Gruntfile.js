@@ -9,11 +9,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.initConfig({
-        banner: banner + '\n',
         uglify: {
             options: {
                 report: 'gzip',
-                banner: '<%= banner %>'
+                banner: banner + '\n'
             },
             build: {
                 files: {
