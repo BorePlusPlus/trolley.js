@@ -1,0 +1,19 @@
+{
+  "name": "trolley.js",
+  "version": "0.0.2",
+  "description": "Resource loader with localStorage support",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BorePlusPlus/trolley.js.git"
+  },
+  "author": "Dalibor 'BorePlusPlus' Novak",
+  "license": "BSD 3-clause",
+  "bugs": {
+    "url": "https://github.com/BorePlusPlus/trolley.js/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-copy": "~0.4.1"
+  }
+}

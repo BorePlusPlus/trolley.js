@@ -1,4 +1,4 @@
-/* trolley.js - https://github.com/BorePlusPlus/trolley.js - Copyright (c) 2013, Dalibor "BorePlusPlus" Novak, License: BSD 3-clause */
+/* trolley.js v0.0.2 - https://github.com/BorePlusPlus/trolley.js - Copyright (c) 2013, Dalibor "BorePlusPlus" Novak, License: BSD 3-clause */
 (function(window, document) {
     'use strict';
 

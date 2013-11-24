@@ -1,12 +1,12 @@
 {
   "name": "trolley.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/BorePlusPlus/trolley.js",
   "authors": [
-    "Dalibor Novak <dalibor79@gmail.com>"
+    "Dalibor 'BorePlusPlus' Novak"
   ],
   "description": "Resource loader with localStorage support",
-  "main": "lib/trolley.js",
+  "main": "dist/trolley.min.js",
   "keywords": [
     "loader",
     "javascript",
@@ -22,6 +22,6 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "Gruntfile.js"
   ]
 }
