@@ -1,0 +1,26 @@
+{
+  "name": "trolley.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/BorePlusPlus/trolley.js",
+  "authors": [
+    "Dalibor Novak <dalibor79@gmail.com>"
+  ],
+  "description": "Resource loader with localStorage support",
+  "main": "lib/trolley.js",
+  "keywords": [
+    "loader",
+    "javascript",
+    "css",
+    "async",
+    "sync",
+    "localStorage"
+  ],
+  "license": "BSD 3-clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
