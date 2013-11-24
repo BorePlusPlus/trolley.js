@@ -13,7 +13,8 @@
     "css",
     "async",
     "sync",
-    "localStorage"
+    "localStorage",
+    "trolley"
   ],
   "license": "BSD 3-clause",
   "ignore": [
