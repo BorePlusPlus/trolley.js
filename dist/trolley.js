@@ -127,11 +127,6 @@
         storePrefix = 'trolleyjs-';
 
     window.trolleyjs = function (files, version) {
-        var insertQ = [],
-            inserted = {},
-            insertListeners = {},
-            versionUpdate = false,
-            toLoad;
 
         function notifyListeners(fileObj) {
             var url = fileObj.url,
@@ -221,6 +216,12 @@
             listeners.push(callback);
         }
 
+        var insertQ = [],
+            inserted = {},
+            insertListeners = {},
+            versionUpdate = false,
+            toLoad;
+
         if (!(files instanceof Array)) {
             files = arguments;
             version = null;
@@ -230,9 +231,6 @@
         for (var i = 0, length = files.length; i < length; i++) {
             lazyLoad(files[i]);
         }
-
-        return {
-            whenLoaded: whenLoaded
-        };
+        return { whenLoaded: whenLoaded };
     };
 })(this, document);
